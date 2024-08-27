@@ -6,7 +6,7 @@ int main()
    int n1;
    printf("check whether the number is Armstrong and perfect");
    printf("Input any number");
-   scanf("%d",&n1);
+   scanf("%d", &n1);
    
    if(Armstrong(n1))
 {
@@ -31,7 +31,7 @@ int main()
    int ld,sum,num;
    sum = 0;
    num = n1;
-   while(num!=0)
+   while(num  != 0)
  {
    ld = num % 10;
    sum += ld * ld * ld;
